@@ -23,7 +23,7 @@ app.get('/balance', function(req, res, next) {
   res.send(thirdmodule.poo + thirdmodule.foo);
 });
 
-var server = app.listen(3000, function() {
+var server = app.listen(process.env.PORT || 3000, function() {
   var host = this.address().address;
   var port = this.address().port;
   console.log('Sever is listening at http://%s:%s', host, port);

@@ -2,7 +2,7 @@
   "name": "prime_solo_express",
   "version": "1.0.0",
   "description": "Create a basic node application using `npm init`. Add an `app.js` file. This is your entry point. Install express using `npm install express --save`.",
-  "main": "apps.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./app.js"
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/NukaPunk/prime_solo_express#readme",
   "dependencies": {
     "express": "^4.13.3"
-  }
+  },
+  "devDependencies": {}
 }
